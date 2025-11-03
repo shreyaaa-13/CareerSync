@@ -1,0 +1,88 @@
+═══════════════════════════════════════════════════════════════
+  🚀 QUICK GITHUB UPLOAD - AI Career Guidance System
+═══════════════════════════════════════════════════════════════
+
+📋 STEP-BY-STEP COMMANDS (Copy & Paste)
+
+1️⃣ OPEN COMMAND PROMPT OR POWERSHELL
+   Press Win + R, type "cmd", press Enter
+
+2️⃣ NAVIGATE TO YOUR PROJECT
+   cd "C:\xampp\htdocs\AI Based Career guidance System"
+
+3️⃣ CONFIGURE GIT (FIRST TIME ONLY)
+   git config --global user.name "Your Name"
+   git config --global user.email "your.email@example.com"
+
+4️⃣ INITIALIZE GIT
+   git init
+
+5️⃣ ADD ALL FILES
+   git add .
+
+6️⃣ CREATE FIRST COMMIT
+   git commit -m "Initial commit: AI-Based Career Guidance System"
+
+7️⃣ CREATE REPOSITORY ON GITHUB
+   - Go to: https://github.com
+   - Click: "+" → "New repository"
+   - Name: AI-Career-Guidance-System
+   - Description: AI-powered career guidance platform
+   - Visibility: Public or Private
+   - DON'T check any boxes
+   - Click: "Create repository"
+
+8️⃣ CONNECT TO GITHUB (Replace YOUR_USERNAME)
+   git remote add origin https://github.com/YOUR_USERNAME/AI-Career-Guidance-System.git
+
+9️⃣ PUSH TO GITHUB
+   git branch -M main
+   git push -u origin main
+
+   ⚠️ When prompted:
+   - Username: your_github_username
+   - Password: Use Personal Access Token (NOT your password!)
+   
+   📝 Get Token: GitHub → Settings → Developer settings → 
+                 Personal access tokens → Generate new token
+
+🎉 DONE! Check: https://github.com/YOUR_USERNAME/AI-Career-Guidance-System
+
+═══════════════════════════════════════════════════════════════
+
+📌 FUTURE UPDATES (After making changes)
+
+   git add .
+   git commit -m "Description of changes"
+   git push origin main
+
+═══════════════════════════════════════════════════════════════
+
+🆘 TROUBLESHOOTING
+
+Problem: "Authentication failed"
+Solution: Use Personal Access Token instead of password
+         Get it from: GitHub → Settings → Developer settings
+
+Problem: "remote origin already exists"
+Solution: git remote remove origin
+         Then add again: git remote add origin [URL]
+
+Problem: "failed to push"
+Solution: git pull origin main --allow-unrelated-histories
+         git push origin main
+
+═══════════════════════════════════════════════════════════════
+
+✅ VERIFY UPLOAD
+
+1. Go to: https://github.com/YOUR_USERNAME/AI-Career-Guidance-System
+2. Check all files are there
+3. README.md should display on main page
+4. node_modules/ and .env should NOT be there
+
+═══════════════════════════════════════════════════════════════
+
+📖 For detailed guide, see: GITHUB_SETUP.md
+
+═══════════════════════════════════════════════════════════════
