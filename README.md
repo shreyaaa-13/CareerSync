@@ -1,4 +1,4 @@
-# AI-Based Career Guidance System
+# CareerSync-AI-Based Career Guidance System
 
 A comprehensive web platform that helps students and professionals discover suitable career paths using AI-powered recommendations, skill assessments, and personalized roadmaps.
 
